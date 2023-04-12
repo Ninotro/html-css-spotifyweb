@@ -1,0 +1,85 @@
+.album-preview:hover {
+    cursor: pointer;
+}
+.album-preview:hover  .display-none.play {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;;
+    transform: translate(-50%,-50%);
+}
+
+.album-preview img:hover {
+    
+    filter: opacity(0.4);
+
+}
+
+.album-preview:hover .img-container{
+    position: relative;
+    
+}
+
+.button:hover {
+    cursor: pointer; 
+    font-size: 20px;
+}
+
+.classifiche div:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.block-loghi:hover {
+    color: white;
+    cursor: pointer;
+    
+}
+
+.block-loghi:hover svg{
+    fill: white;
+}
+
+.playlist:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#add-playlist:hover {
+    background-color: white;
+}
+
+.title-preview h3:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+.logo-font i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.bar:hover .minibar {
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+.loghi-player i:hover {
+    cursor: pointer;
+}
+
+.big:hover {
+    font-size: 30px;
+}
+
+.player-end i:hover {
+    
+    cursor: pointer;
+}
+
+.minibar:hover .circle-white{
+    display: block;
+    
+}

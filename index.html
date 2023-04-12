@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hover.css">
     <title>Spotify</title>
 </head>
 <body>
@@ -90,33 +91,59 @@
                     
                         <h2>Recently played</h2>
                             <div class="row">
-                                <div class="album-preview">
-                                    <img src="img/metal_lifting.jpg" alt="metal">
+                                <div class="album-preview"> 
+                                    <div class="img-container">
+                                    
+                                        <img src="img/metal_lifting.jpg" alt="metal">
+                                        <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                        </div>
+                                    </div>
                                     <h2>Heavy Metal</h2>
                                     <h3>Subtitle</h3>
                                 </div>
                                 <div class="album-preview">
-                                    <img src="img/stranger.jpeg" alt="metal">
+                                    <div class="img-container">
+                                        <img src="img/stranger.jpeg" alt="metal">
+                                        <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                        </div>
+                                    </div>
                                     <h2>Stranger Things,Vol.1(a Netflix Original series Soundtrack)</h2>
                                     <h3>Kyle Dixon & Micheal Stein</h3>
                                 </div>
                                 <div class="album-preview">
-                                    <img src="img/aquietplace.jpeg" alt="metal">
+                                    <div class="img-container">
+                                        <img src="img/aquietplace.jpeg" alt="metal">
+                                        <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                        </div>
+                                    </div>
                                     <h2>A quiet Place</h2>
                                     <h3>Subtitle</h3>
                                 </div>
                                 <div class="album-preview">
-                                    <img src="img/split.jpeg" alt="metal">
+                                    <div class="img-container">
+                                        <img src="img/split.jpeg" alt="metal">
+                                        <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                        </div>
+                                    </div>
                                     <h2>Split</h2>
                                     <h3>Subtitle</h3>
                                 </div>
                                 <div class="album-preview">
-                                    <img src="img/cure.jpeg" alt="metal">
+                                    <div class="img-container">
+                                        <img src="img/cure.jpeg" alt="metal">
+                                        <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                        </div>
+                                    </div>
+
                                 <h2>A cure for wellnes</h2>
                                 <h3>Subtitle</h3>
                                 </div>
                                 <div class="album-preview">
-                                    <img src="img/sinister.jpeg" alt="metal">
+                                    <div class="img-container">
+                                        <img src="img/sinister.jpeg" alt="metal">
+                                        <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                        </div>
+                                    </div>
                                     <h2>Sinister</h2>
                                     <h3>Subtitle</h3>
                                 </div>
@@ -128,11 +155,19 @@
                             <h3>Più ascolti,più accurati saranno i suggerimenti</h3>
                                 <div class="row start">
                                     <div class="album-preview">
-                                        <img src="img/radar.jpeg" alt="metal">
+                                        <div class="img-container">
+                                            <img src="img/radar.jpeg" alt="metal">
+                                            <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                            </div>
+                                        </div>
                                         <h2>Release radar</h2>
                                     </div>
                                     <div class="album-preview">
-                                        <img src="img/mixdaily.jpeg" alt="metal">
+                                        <div class="img-container">
+                                            <img src="img/mixdaily.jpeg" alt="metal">
+                                            <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                            </div>
+                                        </div>
                                         <h2>Daily Mix 1</h2>
                                         
                                     </div>
@@ -147,11 +182,19 @@
                         <h3>Più ascolti,più accurati saranno i suggerimenti</h3>
                             <div class="row start">
                                 <div class="album-preview circle">
-                                    <img src="img/youg.jpeg" alt="metal">
+                                    <div class="img-container">
+                                        <img src="img/youg.jpeg" alt="metal">
+                                        <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                        </div>
+                                    </div>
                                     <h2>Lana Del Rey</h2>
                                 </div>
                                 <div class="album-preview circle">
-                                    <img src="img/einaudi.jpeg" alt="metal">
+                                    <div class="img-container">
+                                        <img src="img/einaudi.jpeg" alt="metal">
+                                        <div class="display-none play"><i class="fa-sharp fa-regular fa-circle-play"></i>
+                                        </div>
+                                    </div>
                                     <h2>Ludovico Einaudi</h2>
                                     
                                 </div>
@@ -171,7 +214,7 @@
         </main>
 
     </div>
-
+<!-- start player -->
     <footer>
         <div class="container-footer">
             <div id="player-left">
@@ -191,7 +234,7 @@
                 <div class="loghi-player">
                     <i class="fa-solid fa-shuffle"></i>
                     <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-sharp fa-regular fa-circle-play"></i>
+                    <i class="fa-sharp fa-regular fa-circle-play big"></i>
                     <i class="fa-solid fa-forward-step"></i>
                     <i class="fa-sharp fa-solid fa-rotate-right"></i>
                 </div>
@@ -199,6 +242,7 @@
                     <span>0:25</span>
                     <div class="bar">
                         <div class="minibar">
+                            <div class="circle-white"></div>
 
                         </div>
                     </div>
@@ -212,6 +256,7 @@
                 <i class="fa-solid fa-volume-high"></i>
                 <div class="bar small">
                     <div class="minibar">
+                        <div class="circle-white"></div>
 
                     </div>
                 </div>
