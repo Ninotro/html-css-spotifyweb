@@ -40,6 +40,7 @@ footer {
     height: 100%;
     background-color: black;
     
+    
 }
 
 .container-eseguibili {
@@ -49,6 +50,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .logo {
@@ -81,6 +83,11 @@ footer {
     margin-bottom: 20px;
     
 }
+
+.loghi-nav > :first-child {
+    position: relative;
+    
+  }
 
 .block-loghi svg { 
     width: 15%;
@@ -195,6 +202,36 @@ footer {
     gap: 30px;
     color: #707277;
 }
+
+.classifiche > :first-child {
+    position: relative;
+}
+
+.board { 
+    
+    text-align: center;
+    width: 40%;
+    height: 2px;
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+
+.board.left {
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: -7.5%;
+    top: 0;
+}
+
+
+
+
+
 
 /* album preview */
 
