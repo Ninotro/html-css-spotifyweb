@@ -71,7 +71,7 @@
 }
 
 .big:hover {
-    font-size: 30px;
+    scale: 2;
 }
 
 .player-end i:hover {

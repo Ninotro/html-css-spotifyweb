@@ -39,6 +39,8 @@ footer {
     width: 200px;
     height: 100%;
     background-color: black;
+    overflow-y: auto;
+    
     
     
 }
@@ -164,7 +166,7 @@ footer {
 #call-to-action {
     
     width: calc(100% - 200px);
-    height: 150px;
+    height: 100px;
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: flex-end;
